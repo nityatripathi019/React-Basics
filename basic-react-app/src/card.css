@@ -1,0 +1,14 @@
+
+.cards{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    margin: 5px;
+   min-width: 220px;
+    border-radius: 0.5rem;
+    /* padding: 0.5rem 0.8rem; */
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    
+}
+
