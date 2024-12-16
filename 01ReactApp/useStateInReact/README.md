@@ -22,3 +22,6 @@ The set function that lets you update the state to a different value and trigger
 
 useState function always return an array with two elemnts with first is value and other one is fucntion..
 in useState this setState method is ressponsible for re rendering of dom
+
+//todolist image
+<img src="./assets/todolist.png " >
