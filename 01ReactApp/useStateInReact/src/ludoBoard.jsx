@@ -52,37 +52,5 @@ import {useState} from 'react'
 
 //activity
 
-export default function LudoBoard (){
-  let [generateNo,setGenerateNo]=useState(0)
-    function generateRandomNo(){
-      let number = Math.floor(Math.random()*1000)
-      let newNo = number.toString().padStart(3,'0');
-      return (newNo)
-    }
 
-    let generatedNo = ()=>{
-      setGenerateNo(generateRandomNo);
-      checkNo();
-    }
-    
-    let checkNo = ()=>{
-      let number = generateNo ;
-      console.log(number)
-      // let Sdigit = 0;
-      // while(number!=0){
-      //  let rem = number %10;
-      //  Sdigit += rem;
-      //  number = number/10;
-      // }
-      // console.log(Math.abs(Sdigit));
-    }
-return(
-    <div>
-   
-   <div className="activity">
-    <p>Lottery Ticket = {generateNo}</p>
-    <button onClick={generatedNo}>Get New Ticket</button>
-   </div>
-    </div>
-)
-}
+

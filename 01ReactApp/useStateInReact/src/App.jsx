@@ -1,7 +1,7 @@
 
 import "./App.css"
-import TodoList from "./todolist"
-// import LudoBoard from "./ludoBoard"
+// import TodoList from "./todolist"
+import LudoBoard from "./ludoBoard"
 
 // import Button from "./button"
 // import Form from "./form"
@@ -15,8 +15,8 @@ function App() {
     {/* <h1>useState in React</h1>
     <Counter/> */}
     {/* <LikeButton/> */}
-    {/* <LudoBoard/> */}
-    <TodoList/>
+    <LudoBoard/>
+    {/* <TodoList/> */}
     </>
   )
 }
