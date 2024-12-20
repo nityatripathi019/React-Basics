@@ -5,19 +5,19 @@
 //  import ProductTab from "./productTab.jsx";
 import Cardlist from "./cardlist.jsx";
 
- 
- function App(){
-  return (
-  <>
-   {/* <ProductTab/> */}
-   {/* <MessageBox/> */}
-   
-   <Cardlist/>
-  </>
-  )
-  
- }
 
-export {App};
+function App() {
+    return (
+        <>
+            {/* <ProductTab/> */}
+            {/* <MessageBox/> */}
+
+            <Cardlist />
+        </>
+    )
+
+}
+
+export { App };
 
 

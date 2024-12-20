@@ -1,0 +1,34 @@
+.user-container {
+    padding: 1.3rem 1rem;
+    border: 1px solid white;
+    max-width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: rgb(206, 147, 39);
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(8, 8, 8);
+
+
+}
+
+.user-container img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 2px;
+    object-fit: fill;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+.user-container p {
+    font-size: 1.03rem;
+    text-align: start;
+    color: rgb(0, 0, 0);
+}
