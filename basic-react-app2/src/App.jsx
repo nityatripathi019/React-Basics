@@ -1,14 +1,17 @@
 
 import './App.css'
-import Lottery from './lottery'
-
+// import Lottery from './lottery'
+// import Form from './form'
+// import CommentForm from './commentForm'
+import Comments from './comments'
 function App() {
 
 
   return (
     <>
-      <Lottery />
 
+
+      <Comments />
     </>
   )
 }

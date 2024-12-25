@@ -1,0 +1,10 @@
+.comment {
+  border: 2px solid rgb(224, 78, 78);
+  padding: 1rem;
+  border-radius: 15px;
+  background-color: cornflowerblue;
+  color: black;
+  font-family: sans-serif;
+  font-size: 1.35rem;
+  margin-bottom: 8px;
+}
